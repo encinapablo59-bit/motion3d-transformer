@@ -1,0 +1,35 @@
+# Core ML dependencies
+torch>=1.9.0
+torchvision>=0.10.0
+numpy>=1.21.0
+opencv-python>=4.5.0
+pillow>=8.3.0
+scipy>=1.7.0
+
+# Computer vision
+imageio>=2.9.0
+imageio-ffmpeg>=0.4.0
+tqdm>=4.62.0
+
+# Motion transfer models
+# Note: These will be installed from source if needed
+# first-order-model
+# motion-clone
+
+# Web API
+fastapi>=0.68.0
+uvicorn>=0.15.0
+python-multipart>=0.0.5
+python-jose[cryptography]>=3.3.0
+
+# Utilities
+pyyaml>=5.4.0
+requests>=2.26.0
+h5py>=3.1.0
+matplotlib>=3.4.0
+
+# Development
+pytest>=6.2.0
+pytest-cov>=2.12.0
+black>=21.7.0
+flake8>=3.9.0
