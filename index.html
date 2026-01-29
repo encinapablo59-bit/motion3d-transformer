@@ -4,13 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Motion3D Transformer</title>
-    <meta name="description" content="Real-time motion transfer for 3D character animation" />
     <style>
-      body { margin: 0; background-color: #0f172a; color: white; font-family: sans-serif; }
+      body { 
+        margin: 0; 
+        background-color: #0f172a; 
+        color: white; 
+        font-family: system-ui, -apple-system, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .loading { text-align: center; }
     </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="loading">
+        <h1>Motion3D Transformer</h1>
+        <p>Cargando interfaz de IA...</p>
+      </div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
